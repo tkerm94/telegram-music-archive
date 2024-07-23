@@ -1,0 +1,20 @@
+* telegram-music-archive
+This project is a telegram bot (using =aiogram=) that can search and download tracks, maintain and organise your music library. It uses yandex music api(?) to search track metadata and youtube data api to download audio.
+** Installation and launching
+First, clone the project and navigate to the project folder:
+#+begin_src bash
+git clone https://github.com/tkerm94/telegram-music-archive && cd telegram-music-archive
+#+end_src
+Then you will need to install a few libraries, they are defined in the requirements.txt file, so just run this command:
+#+begin_src bash
+pip install -r requirements.txt
+#+end_src
+You will also need to get the youtube data api key and telegram bot token, and then export them to a working shell:
+#+begin_src bash
+export YT_TOKEN=your_token
+export BOT_TOKEN=your_token
+#+end_src
+Then just run the =main.py= file, you can do this with this command:
+#+begin_src bash
+python main.py
+#+end_src

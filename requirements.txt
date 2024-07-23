@@ -1,0 +1,7 @@
+aiohttp
+pillow
+aiogram
+yt-dlp
+python-youtube
+cairosvg
+thefuzz

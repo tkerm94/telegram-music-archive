@@ -1,0 +1,1 @@
+Directory for music download functionality, each file is deleted after it is sent to the user.
